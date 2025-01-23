@@ -6,4 +6,11 @@
 
 ## intellisense
 - change theme
-  
+
+### automatic format code - shift + alt + F
+
+# Productivity Tips
+    - Don't touch your mouse
+        - ctrl + 0 switch focus to files
+        - ctrl + 1 switch focus back to code 
+        - enter open file
