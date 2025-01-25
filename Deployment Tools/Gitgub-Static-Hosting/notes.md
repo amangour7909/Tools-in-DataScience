@@ -1,0 +1,1 @@
+## codebases page templates project structure to get started
