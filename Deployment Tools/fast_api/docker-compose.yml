@@ -1,0 +1,9 @@
+version: '3.8'  # Specifies the version of the Docker Compose file format
+
+services:  # Defines the services that make up your application
+  web:  # Name of the service
+    build: .  # Specifies the build context, which is the current directory
+    ports:  # Maps the container's ports to the host's ports
+      - "8000:80"  # Maps port 80 in the container to port 8000 on the host
+    volumes:  # Mounts the current directory to /app in the container
+      - .:/app

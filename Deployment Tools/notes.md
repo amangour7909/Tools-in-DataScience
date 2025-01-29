@@ -1,3 +1,18 @@
+# Challenges faced and things to keep in mind
+   ### fast api
+      - to run fastapi project using uvicorn make sure you use filename:app
+      - uvicorn app:app --reload --host 127.0.0.1 --port 8001
+   
+   ### api testing
+      - while testing api endpoint make sure server is running
+      - request should be valid
+      - handle parameters
+   
+   ### vercel
+      - in requirements.txt file write down dependencies with required versions.
+      - while testing make sure you are requesting valid existing endpoint
+      - function error means error in deployment
+
 # Image Compression for App Deployment
 
 Image compression is crucial for optimizing storage and bandwidth when deploying applications, especially when dealing with numerous images. Here's a concise guide on image compression techniques and a Python code workflow for compressing images.
